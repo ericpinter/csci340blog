@@ -16,7 +16,7 @@
 title: Orignial Blog Title
 email: pintered@hendrix.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a little blod which I am making for my Web and Databases class.
+  This is a little blog which I am making for my Web and Databases class.
 baseurl: "/csci340blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ericpinter
