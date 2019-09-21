@@ -1,5 +1,6 @@
 ---
 layout: post
+author: "Eric Pinter"
 title:  "Introduction Post"
 date:   2019-09-18 08:00:00 -0500
 categories: jekyll update
