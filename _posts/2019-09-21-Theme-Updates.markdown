@@ -9,7 +9,7 @@ categories: jekyll update
 This blog has a new template, and new styling to go along with it. You might be wondering why I chose this [particular theme](https://github.com/brianmaierjr/long-haul).
 It was purely because I tried out the alternatives and ran into more difficulties setting them up correctly than this one.
 
-![A couple of unhelpful error messages]({{site.baseurl}}/assets/images/cmdError.png)
+![A couple of unhelpful error messages]({{site.baseurl}}/assets/images/cmdError.jpg)
 Setting up each was easy, but this one was the easiest to port over an existing (tiny) blog to with minimal changes.
 One slight downside of the new template is that whenever I change some files all of the css breaks, and the server needs to be restarted.
 
