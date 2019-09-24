@@ -23,12 +23,13 @@ github_username:  ericpinter
 
 navigation:
   - title: Home
-    url: /index.html
+    url: /index
   - title: Articles
     url: /articles
   - title: About
     url: /about
-
+  - title: Rust
+    url: /rust
 social:
   github: ericpinter
   email: pintered@hendrix.edu
