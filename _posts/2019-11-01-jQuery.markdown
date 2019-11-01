@@ -1,0 +1,8 @@
+---
+layout: post
+author: "Eric Pinter"
+title:  "jQuery API project"
+date:   2019-11-01 12:00:00 -0500
+---
+
+For our project Innocent and I made a basic pseudo-meme generator which attaches random jokes to random Shiba Inu pictures. The Khan Academy and in-class demonstrations were helpful enough, but only in the parts that were already pretty easy. We spent the vast majority of our time trying to resolve the CORS errors, which we eventually found out were never getting resolved because we were using jsonp instead of normal requests. Honestly, I'm not sure how much easier that all could have been though as almost the entire reason it was a roadblock is because the error messages were so unhelpful and vague. After we resolved that the only thing left was the relatively simple (though still annoying) process of figuring out how to make all of the bootstrap and css rules which we would need to have text display on top of images, which we eventually did by just making the image we want to display as the background-image of a div and having an unseen image inside of that div to stretch it to the right size. Setting it all up like this meant that we were actually able to significantly lessen the load of what we would have to do in jQuery. Originally we were expecting to have to detect how large the image we received was and do some on-the-fly scaling of the text and image, but in the end we found that it worked fine with just using max-height to keep the image from going too far off screen.
